@@ -26,4 +26,8 @@ def Factorial(n):
     :param n:  Operand
     :return:   n!
     '''
-    return(math.factorial(n))
+#    return(math.factorial(n))
+    fact=1
+    for i in range(1,n+1):
+      fact = fact * i
+    return fact
